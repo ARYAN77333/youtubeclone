@@ -6,6 +6,7 @@
     /* border: 1px solid rgb(16, 216, 36); */
     display: flex;
     padding: 10px;
+   
 
 }
 .nav_left{
@@ -22,8 +23,14 @@ align-items: center;
     padding: 10px
 }
 
+.nav_left > i:hover{
+   background-color: rgb(202, 201, 201);
+   border-radius: 50%;
+   cursor: pointer;
+}
 .nav_left > img{
     width: 100px;
+   
 }
 
 
@@ -121,6 +128,26 @@ align-items: center;
  .right_icon > i{
     font-size: 20px;
  }
+ .right_icon  .i:hover{
+   cursor: pointer;
+ }
+ .right_icon:hover{
+   cursor: pointer;
+ }
+ .right_icon >span{
+   visibility: collapse;
+   padding: 4px;
+   position: relative;
+   top: 45px;
+   left: 30px;
+ }
+
+ .right_icon:hover > span{
+   visibility: visible;
+   /* cursor: pointer; */
+   background-color: rgba(150, 145, 135, 0.393);
+   border-radius: 10px;
+ }
  
 
  .right_butn{
@@ -146,16 +173,44 @@ align-items: center;
     color: rgb(8, 47, 240);
  }
 
+                     
+ 
+                          /* MENU BAR */
+
+
+ .menu{
+   /* border: 1px solid darkred; */
+   display: flex;
+   flex: 8;
+   padding: 5px;
+   margin-left: 260px;
+ }
+ 
+ 
+.task{
+   /* border: 1px solid rgb(224, 218, 218); */
+   padding: 6px;
+   border-radius: 10px;   
+   margin: 5px;
+  background-color: rgb(236, 235, 235);
+   
+}
+.task:hover{
+   background-color: rgb(212, 200, 200);
+   cursor: pointer;
+}
 
 
 
- /* MAIN SECTION*/
+
+                              /* MAIN SECTION*/
 .main{
     /* border: 1px solid red; */
     display: flex;
     margin-top: 10px;
 }
 
+ 
 .left_section{
     /* border: 1px solid black; */
     flex: 2;
@@ -170,6 +225,7 @@ align-items: center;
  .middle_section{
     /* border: 1px solid palevioletred; */
     flex: 8;
+    
  }
 
  .menus{
@@ -182,8 +238,19 @@ align-items: center;
     align-items: center;
    
  }
+
+ 
+   
+
+
+ 
+ .hr{
+   /* color: rgba(243, 144, 15, 0.716); */
+   margin: 5px;
+ }
  .menus:hover{
     background-color: rgba(235, 229, 229, 0.896);
+    cursor: pointer;
  }
 
  .menus > i{
@@ -209,7 +276,7 @@ align-items: center;
 
  .middle_section{
     /* border: 1px solid black; */
-    padding: 5px;
+        padding: 5px;
    
  }
 
@@ -234,6 +301,7 @@ align-items: center;
  
  .videos > iframe:hover{
    border-radius: 0%;
+   cursor: pointer;
    
  }
  .info{
@@ -258,7 +326,7 @@ align-items: center;
  .info > img{
     width: 40px;
     /* margin-top: 5px;   */
-    border-radius: 20px;
+    border-radius: 50%;
  }
  .info > i{
     font-size: 20px;
@@ -268,10 +336,31 @@ align-items: center;
 
  .info:hover > i{
    visibility: visible;
+   cursor: pointer;
  }
+
+ .sub{
+   color: rgb(143, 143, 159);
+   
+ }
+ .sub  > .name:hover{
+   color: rgb(0, 0, 0);
+ }
+ sub:hover{
+   cursor: pointer;
+ }
+
+ .name > i{
+   font-size: 12px;
+ }
+
+ 
+
 
  .sub > p{
     /* color: red; */
     margin-left: 52px;
+    cursor: pointer;
+    
  }
  
